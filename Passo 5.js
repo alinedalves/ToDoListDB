@@ -1,4 +1,4 @@
-Primeira Querie
+//Primeira Querie
 
 db.tasks.update(
   { titulo: 'Tarefa 1' }, 
@@ -13,7 +13,7 @@ db.tasks.update(
   modifiedCount: 1,
   upsertedCount: 0
 
-Segunda Querie:
+//Segunda Querie:
 
 db.tasks.update(
   { titulo: 'Tarefa 1' }, 
@@ -33,7 +33,7 @@ db.tasks.update(
 ...   { titulo: 'Tarefa 1' },
 ...   { $inc: { completionDate: 1000 * 60 * 60 * 24 * 2 } }
 
-Terceira Querie:
+//Terceira Querie:
 
 db.tasks.update(
   { titulo: 'Tarefa 1', status: 'In Progress' }, 
@@ -48,7 +48,7 @@ db.tasks.update(
   upsertedCount: 0
 }
 
-Quarta Querie:
+//Quarta Querie:
 
 db.tasks.update(
   { titulo: 'Tarefa 1' }, 
@@ -63,7 +63,7 @@ db.tasks.update(
   upsertedCount: 0
 }
 
-Quinta Querie:
+//Quinta Querie:
 
 db.tasks.update(
   { titulo: 'Tarefa 1' }, 
