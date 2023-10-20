@@ -1,4 +1,4 @@
-1. Antes da Indexação:
+//Antes da Indexação:
 
 db.tasks.find({ creationDate: { $gte: new ISODate("2023-10-10T00:00:00.000Z") } }).explain("executionStats")
 
@@ -73,7 +73,7 @@ creationDate_1
 db.tasks.createIndex({ status: 1 })
 status_1
 
-3. Depois da Indexação:
+//Depois da Indexação:
 
 db.tasks.find({ creationDate: { $gte: new ISODate("2023-10-10T00:00:00.000Z") } }).explain("executionStats")
 
