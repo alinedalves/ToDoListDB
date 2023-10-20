@@ -1,4 +1,4 @@
-Comando mongo shell/queries 
+//Comando mongo shell/queries 
 
 db.tarefa.insert({
   titulo: 'Tarefa 1',
