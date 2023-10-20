@@ -66,7 +66,7 @@ db.tasks.find({ creationDate: { $gte: new ISODate("2023-10-10T00:00:00.000Z") } 
   ok: 1
 }
 
-2.Índices:
+//Índices:
 
 db.tasks.createIndex({ creationDate: 1 })
 creationDate_1
